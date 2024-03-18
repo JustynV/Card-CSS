@@ -1,0 +1,143 @@
+.skills p{
+    background-color: aqua;
+    color: white;
+    width: fit-content;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;    
+    display: inline-block;
+}
+
+@font-face {
+    font-family: 'simbols';
+    src:  url('../fonts/icomoon.eot?lqvh5d');
+    src:  url('../fonts/icomoon.eot?lqvh5d#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?lqvh5d') format('truetype'),
+      url('../fonts/icomoon.woff?lqvh5d') format('woff'),
+      url('../fonts/icomoon.svg?lqvh5d#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+body{
+    min-height: 100vh;
+    display: -webkit-box;
+}
+
+.card{
+    margin: auto;
+    width: fit-content;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 2px 2px 10px #000000;
+}
+
+.card .owner{
+    color:gray
+}
+
+.card .lastseen{
+    color: gray;
+    padding-left: 60px;
+    padding-right: 10px;
+}
+
+
+.up::before{
+    color: green;
+    font-family: "simbols";
+    font-size: 15px;
+    display: inline-block;
+    transform: rotate(270deg);
+    content: "\ea1c";
+}
+
+.down::before{
+    color: red;
+    font-family: "simbols";
+    font-size: 15px;
+    display: inline-block;
+
+    transform: rotate(90deg);
+    content: "\ea1c";
+
+}
+
+.star::before{
+    color: gold;
+    font-family: "simbols";
+    content: "\e9d8";
+}
+
+.card .profile, .card .info{
+    display: inline-block;
+}
+
+.card .info{
+    vertical-align: top;
+}
+
+.card .title{
+    padding-bottom: 30px;
+}
+
+.card .lastseen, .card .skills{
+    display: inline-block;
+}
+
+
+
+.card .rating, .card .stars{
+    display: inline-block;
+}
+
+.card .stars{
+    position: relative; 
+    left: 500px; 
+}
+
+
+.card .stars p{
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+.card .stars p, .card .stars{
+    display: inline-block;
+}
+.card .bottom{
+    border-top: solid lightseagreen;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.card .rating{
+    padding-left: 15px;
+    color: gray;
+    font-size: 20px;
+}
+.card .job{
+    font-style: italic;
+    font-weight: 700;
+}
+
+.card .owner p{
+    color: orangered;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.card .profile img{
+    width:150px;
+    padding: 0px 0px 0px 5px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
